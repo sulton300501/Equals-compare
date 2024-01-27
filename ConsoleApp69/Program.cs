@@ -15,10 +15,13 @@ class Program
     {
         var a = new Person("John");
         var b = new Person("John");
+
+
+       Console.WriteLine(a.Equals(b));
+
+
         
 
-        bool equal = a.Name.Equals(b.Name);
-        Console.WriteLine(equal);
 
     }
 }
